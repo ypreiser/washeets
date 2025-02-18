@@ -22,3 +22,5 @@ client.on('message_create', message => {
 	}
 });
 
+const app = express();
+app.use(express.json());
